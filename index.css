@@ -1,0 +1,164 @@
+:root {
+  --first-color: #fff7e6;
+  --second-color:#722ed1;
+  --third-color: #414581;
+  --fourth-color: #fff566;
+  --fifth-color: #fadb14;
+  font-size: 10px;
+}
+
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgb(238, 236, 179) 0%, rgb(246, 234, 106) 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.app .container {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+  height: 850px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.app .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.app .direction {
+  min-width: 600px;
+  max-width: 800px;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.direction a{
+  color: var(--third-color);
+  margin-left: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family:'Supermercado One', cursive;
+}
+
+.app .logo {
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+  width: 10rem;
+}
+
+.app .section {
+  display: flex;
+  height: 550px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+
+.app .text-section {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+  position: relative;
+  align-self: stretch;
+  padding: 10px 0px;
+  flex: 0 0 auto;
+  background-image: url(/img/CreamCheeseFruitTarts.png);
+  background-size: cover; 
+  z-index: 1;
+}
+
+
+.app .text-title {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  color: yellow;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px var(--third-color);
+  opacity: 1;
+  font-size: 5.5rem;
+  font-family: fantasy;
+}
+
+.app .text-details {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  color: rgb(255, 106, 0);
+  -webkit-text-stroke: 1px #000;
+  opacity: 1;
+  font-size: 3rem;  
+}
+
+.app .footer {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.app .footer .icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: auto;
+}
+
+.icons .img {
+  width: 3rem;
+}
+
+.app .footer .contact {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+
+.app .footer .text-copyright {
+  font-size: 1rem;
+  display: flex; 
+  justify-content: center;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
